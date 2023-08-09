@@ -2,7 +2,7 @@
   "name": "projeto",
   "version": "1.0.0",
   "description": "",
-  "main": "servidor.js",
+  "main": "src/servidor.js",
   "scripts": {
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "4.16.2"
-  },
-  "devDependencies": {
-    "nodemon": "1.14.11"
   }
 }

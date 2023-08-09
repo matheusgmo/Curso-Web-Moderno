@@ -4,6 +4,11 @@ const express = require('express')
 const app = express()
 
 app.get('/produtos', (req, res, next) => {
+    console.log('Middlewere 1...')
+    next()
+})
+
+app.get('/produtos', (req, res, next) => {
     res.send({nome: 'Notebook', preco: 123.45})
 })
 
