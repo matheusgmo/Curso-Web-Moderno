@@ -20,7 +20,7 @@ console.log(pilotos)
 
 //remover
 
-pilotos.splice(3, 1) //Masa quebrou :(
+pilotos.splice(3, 1) //Massa quebrou :(
 console.log(pilotos)
 
 const algunsPilotos = pilotos.slice(2) //novo array cortado
